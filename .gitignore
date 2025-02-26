@@ -1,2 +1,19 @@
-/venv
-/clean_data.csv
+# Ignore Python cache and virtual environments
+__pycache__/
+*.pyc
+*.pyo
+.env/
+env/
+venv/
+
+# Ignore dataset files (optional)
+data/raw/
+data/processed/
+
+# Ignore model files
+models/
+*.pkl
+
+# Ignore logs and checkpoints
+logs/
+metrics/

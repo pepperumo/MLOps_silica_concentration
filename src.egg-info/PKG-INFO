@@ -1,0 +1,9 @@
+Metadata-Version: 2.2
+Name: src
+Version: 0.1.0
+Summary: Project on MLOps silica_concentrate
+Author: Giuseppe Rumore
+License: MIT
+Dynamic: author
+Dynamic: license
+Dynamic: summary

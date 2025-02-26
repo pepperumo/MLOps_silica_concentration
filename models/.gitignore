@@ -1,3 +1,4 @@
 // filepath: /C:/Users/peppe/Documents/GitHub/MLOps_silica_concentration/models/.gitignore
 trained_model.pkl
 best_params.pkl
+/gbr_model.pkl

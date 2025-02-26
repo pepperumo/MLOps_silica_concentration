@@ -31,7 +31,7 @@ def save_model(model, output_path):
 def main():
     input_folder = "data/processed"
     param_file = "models/best_params.pkl"
-    model_file = "models/trained_model.pkl"
+    model_file = "models/gbr_model.pkl"
 
     X_train, y_train = load_data(input_folder)
     best_params = load_best_params(param_file)

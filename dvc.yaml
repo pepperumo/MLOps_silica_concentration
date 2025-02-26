@@ -48,4 +48,6 @@ stages:
       - models/gbr_model.pkl
     outs:
       - data/prediction.csv
-      - metrics/scores.json
+    metrics:
+      - metrics/scores.json:
+          cache: false

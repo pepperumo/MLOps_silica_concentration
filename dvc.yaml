@@ -3,7 +3,7 @@ stages:
     cmd: python src/data/data_split.py
     deps:
       - src/data/data_split.py
-      - data/raw/raw.csv
+      - https://datascientest-mlops.s3.eu-west-1.amazonaws.com/mlops_dvc_fr/raw.csv
     outs:
       - data/processed/X_train.csv
       - data/processed/X_test.csv

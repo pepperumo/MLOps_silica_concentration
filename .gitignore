@@ -93,4 +93,5 @@ target/
 *.joblib
 
 
-*.png
+# Image files and folders
+images/

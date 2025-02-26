@@ -27,6 +27,9 @@ This repository demonstrates a machine learning pipeline using **DVC** and **Git
     5. Evaluate model performance (MSE, R²).
 - **Repository**: [MLOps_silica_concentration on DagsHub](https://dagshub.com/pepperumo/MLOps_silica_concentration)
 
+### Pipeline Visualization
+![ML Pipeline Workflow](images/pipeline.png)
+
 ---
 
 ## Project Structure
@@ -49,6 +52,8 @@ MLOps_silica_concentration/
 │       ├── grid_search.py  # Finds best hyperparams
 │       ├── training.py     # Trains the model
 │       └── evaluate.py     # Evaluates model performance
+├── images/
+│   └── pipeline.png       # Pipeline visualization
 ├── dvc.yaml               # Defines DVC pipeline stages
 ├── .gitignore
 ├── .dvcignore

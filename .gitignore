@@ -17,3 +17,5 @@ models/
 # Ignore logs and checkpoints
 logs/
 metrics/
+
+src.egg-info/

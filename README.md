@@ -25,6 +25,7 @@ This repository demonstrates a machine learning pipeline using **DVC** and **Git
     3. Perform hyperparameter tuning (GridSearch).
     4. Train a regression model.
     5. Evaluate model performance (MSE, R²).
+- **Repository**: [MLOps_silica_concentration on DagsHub](https://dagshub.com/pepperumo/MLOps_silica_concentration)
 
 ---
 
